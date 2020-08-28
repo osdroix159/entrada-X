@@ -1,0 +1,261 @@
+
+.pollo{
+  padding: 30px;
+}
+.bod7{
+  background: #000;
+}
+.btnh{
+  background: #033649;
+     width: 90%;
+}
+div#body{
+}
+div#pared{
+	background: #fff;
+	max-width: 650%;
+    height: 100vh;
+     width: 70%;
+  	overflow-y: auto;
+  	float: left;
+}
+div#pared1{
+	background: #fff;
+    height: 100vh;
+    padding: 3em;
+    float: left;
+  }
+div#capsula{
+  background: #Fff;
+  max-width: 30%;
+    height: 100vh;
+     width: 70%;
+    overflow-y: auto;
+    float: right;
+}
+div#capsulas{
+  background: #FFF;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  width: 400px;
+}
+.capsula2{
+  background:#fff;
+  width: 100%;
+    height: 100vh;
+  border-radius: 8px;
+}
+.valor{
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 3px;
+
+}
+.fondo{
+}
+.title{
+	color:000;
+}
+.title2{
+  color:000;
+}
+.color{
+	color:#000;	
+}
+#centro {
+    height: 30vh;
+    width: 31vh;
+    object-fit: cover;
+}
+.text{
+      border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black ;
+}
+.text1{
+      border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+.link{
+  color:#06BADE;
+}
+div#imga{
+   width: 70%;
+    overflow-y: auto;
+    float: right;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.contenedor9 {
+width: 96%;
+max-width: 960px;
+margin: 0 auto;
+width: 100%;
+height: auto;
+}
+
+.img {
+    border-radius:150%;
+    border:10px solid #A6E22B;
+    font-size: calc( 0.5+ 1vw);
+}
+.main{
+  background:  #033649 ;
+  padding: 20px;
+}
+.bodyss{
+  background:#00BDFF;
+
+}
+.entrada{
+ background:#fFF;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+  }
+  .p{
+    
+    float: right;
+}
+.div{
+ background:#00AFF0;
+ padding: 15px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  text-align: center;
+  width: 97%;
+  }
+.hy{
+  color:#00BDFF;
+  font-size: calc( + 1vw);
+}
+.hu{
+  font-size: calc( + 1vw);
+}
+.n{
+  width: 100%
+  height: 100%;
+}
+.hy2{
+  color:#fff;
+  font-size: calc( + 1vw);
+}
+.white{
+  background:#000;
+}
+.Productos{
+  background:  #fff;
+  max-width: 630%;
+  height: 80vh;
+  width: 70%;
+  border-radius: 8px;
+  overflow-y: auto;
+  float: left; 
+}
+.Productos1{
+  background:  #fff;
+  max-width: 630%;
+    height: 87vh;
+     width: 70%;
+  border-radius: 8px;
+    overflow-y: auto;
+    float: left; 
+}
+.sumatorios{
+  background: #fff;
+  max-width: 630%;
+  width: 50%;
+  border-radius: 8px;
+    overflow-y: auto;
+    float: right; 
+}
+.centrado{
+  background: #fff;
+  max-width: 630%;
+    height: 75vh;
+     width: 95%;
+    overflow-y: auto;
+    float: right; 
+}
+
+.buscado{
+  background:#58D665;
+  border-radius: 8px;
+  padding: 20px;
+  height: 80vh;
+  overflow-y: auto;
+}
+.mostrador{
+  background: #fff;
+  height: 83vh;
+     width: 30%;
+    overflow-y: auto;
+    float: left;
+}
+.graficas{
+  background:  #fff;
+  max-width: 610%;
+    height: 83vh;
+     width: 70%;
+  border-radius: 8px;
+    overflow-y: auto;
+    float: left; 
+}
+.chicos{
+  background:  #fff;
+  max-width: 310%;
+    height: 37vh;
+     width: 40%;
+    overflow-y: auto;
+    float: left; 
+}
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.3);
+}
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
